@@ -39,6 +39,10 @@ namespace AP190139Desafio1.Controllers
             {
                 empleados = empleados.Where(p => p.Apellidos.Contains(txtBuscarApellido));
             }
+            if (!String.IsNullOrEmpty(txtBuscarCargo))
+            {
+                empleados = empleados.Where(p => p.Cargo.Contains(txtBuscarCargo));
+            }
 
 
             return View(await empleados.ToListAsync());

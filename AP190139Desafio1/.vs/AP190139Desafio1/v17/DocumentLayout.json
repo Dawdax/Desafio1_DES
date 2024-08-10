@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\David\\Documents\\All proyects\\Desafio1_DES\\AP190139Desafio1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6F66B8B4-BB57-4A5D-A365-C5E349D66578}|AP190139Desafio1\\AP190139Desafio1.csproj|c:\\users\\david\\documents\\all proyects\\desafio1_des\\ap190139desafio1\\ap190139desafio1\\views\\empleados\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6F66B8B4-BB57-4A5D-A365-C5E349D66578}|AP190139Desafio1\\AP190139Desafio1.csproj|solutionrelative:ap190139desafio1\\views\\empleados\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6F66B8B4-BB57-4A5D-A365-C5E349D66578}|AP190139Desafio1\\AP190139Desafio1.csproj|c:\\users\\david\\documents\\all proyects\\desafio1_des\\ap190139desafio1\\ap190139desafio1\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F66B8B4-BB57-4A5D-A365-C5E349D66578}|AP190139Desafio1\\AP190139Desafio1.csproj|solutionrelative:ap190139desafio1\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F66B8B4-BB57-4A5D-A365-C5E349D66578}|AP190139Desafio1\\AP190139Desafio1.csproj|c:\\users\\david\\documents\\all proyects\\desafio1_des\\ap190139desafio1\\ap190139desafio1\\controllers\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F66B8B4-BB57-4A5D-A365-C5E349D66578}|AP190139Desafio1\\AP190139Desafio1.csproj|solutionrelative:ap190139desafio1\\controllers\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F66B8B4-BB57-4A5D-A365-C5E349D66578}|AP190139Desafio1\\AP190139Desafio1.csproj|c:\\users\\david\\documents\\all proyects\\desafio1_des\\ap190139desafio1\\ap190139desafio1\\views\\empleados\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F66B8B4-BB57-4A5D-A365-C5E349D66578}|AP190139Desafio1\\AP190139Desafio1.csproj|solutionrelative:ap190139desafio1\\views\\empleados\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,6 +27,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Empleado.cs",
+              "DocumentMoniker": "C:\\Users\\David\\Documents\\All proyects\\Desafio1_DES\\AP190139Desafio1\\AP190139Desafio1\\Models\\Empleado.cs",
+              "RelativeDocumentMoniker": "AP190139Desafio1\\Models\\Empleado.cs",
+              "ToolTip": "C:\\Users\\David\\Documents\\All proyects\\Desafio1_DES\\AP190139Desafio1\\AP190139Desafio1\\Models\\Empleado.cs",
+              "RelativeToolTip": "AP190139Desafio1\\Models\\Empleado.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAIwCMAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T21:20:30.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\David\\Documents\\All proyects\\Desafio1_DES\\AP190139Desafio1\\AP190139Desafio1\\Views\\Empleados\\Index.cshtml",
               "RelativeDocumentMoniker": "AP190139Desafio1\\Views\\Empleados\\Index.cshtml",
@@ -41,7 +58,7 @@
               "RelativeDocumentMoniker": "AP190139Desafio1\\Controllers\\EmpleadosController.cs",
               "ToolTip": "C:\\Users\\David\\Documents\\All proyects\\Desafio1_DES\\AP190139Desafio1\\AP190139Desafio1\\Controllers\\EmpleadosController.cs",
               "RelativeToolTip": "AP190139Desafio1\\Controllers\\EmpleadosController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAgwBwAAABeAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAgwCsAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-10T18:02:10.447Z",
               "EditorCaption": ""
