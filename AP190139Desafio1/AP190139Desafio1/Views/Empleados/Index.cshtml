@@ -1,0 +1,84 @@
+﻿@model IEnumerable<AP190139Desafio1.Models.Empleado>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Registro de los empleados</h1>
+
+<p>
+    <a asp-action="Create">Crear un empleado</a>
+</p>
+<form asp-controller="Empleados" asp-action="Index" method="get">
+     <div class="d-flex align-items-center"> 
+        <div class="flex-grow-1 me-2">
+            Apellidos: <input type="text" name="txtBuscarApellido" class="form-control mb-1" />
+            <input type="submit" value="filtrar Apellido" class="btn btn-info mt-2" />
+        </div>
+        <div class="flex-grow-1 me-2">
+            Cargo: <input type="text" name="txtBuscarCargo" class="form-control mb-1" />
+            <input type="submit" value="filtrar Cargo" class="btn btn-info mt-2" />
+        </div>
+     </div>
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombres)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Apellidos)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaDeNacimiento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Direccion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Telefono)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cargo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SueldoBase)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombres)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Apellidos)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaDeNacimiento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Direccion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Telefono)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cargo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SueldoBase)
+            </td>
+            <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdrEhjc7GyhSsc9_IBtDTcsQlv6-9RD1lXYcQFXUBpRi2D1KbXnUyMLR8SDjVHZOFmFLo&usqp=CAU" alt="Editar" style="width:16px; height:16px;" /> Editar </a> |
+                    <a asp-action="Details" asp-route-id="@item.Id"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgoK60U5B16BdIBzTCjKi-03GBgyZhDK9KXn78I3D5uCuJpjOCHfpEVws7z1sPJg8qjtA&usqp=CAU" alt="detalles" style="width:18px; height:18px;" /> Detalles</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY0cxmNFfPXROZS9gUw_7hA3kETOv5R-9pbw&s" alt="Eliminar" style="width:16px; height:16px;" /> Eliminar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
